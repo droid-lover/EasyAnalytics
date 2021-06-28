@@ -1,0 +1,4 @@
+include ':localStorage'
+include ':easyAnalytics'
+include ':app'
+rootProject.name = "NewsApplication"

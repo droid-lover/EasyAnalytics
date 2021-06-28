@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+
+    <!--This is for charles proxy-->
+    <debug-overrides>
+        <trust-anchors>
+            <!-- Trust user added CAs while debuggable only -->
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+    <!--end for charles proxy code-block-->
+
+
+
+    <!--Here can be your other SSL Pinning Related code-->
+
+    <!--For more on SSL Pinning check this below link-->
+    <!--  Sachin's Blog
+      https://medium.com/native-mobile-bits/ssl-pinning-and-vulnerabilities-handling-in-android-57e347feb39b-->
+
+
+</network-security-config>
+
+
+

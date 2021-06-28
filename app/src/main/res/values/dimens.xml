@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="activityPadding">16dp</dimen>
+    <dimen name="placeholderImage">60dp</dimen>
+    <dimen name="placeholderTextHeight">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="realImage">80dp</dimen>
+    <dimen name="default_spacing_small">10dp</dimen>
+</resources>

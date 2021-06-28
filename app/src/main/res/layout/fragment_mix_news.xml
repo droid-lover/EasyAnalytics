@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".views.fragments.MixNewsFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMixNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:layoutAnimation="@anim/layout_anim"
+        android:padding="4dp" />
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

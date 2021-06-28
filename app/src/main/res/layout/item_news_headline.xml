@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:id="@+id/cvContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:padding="8dp"
+    android:layout_marginBottom="6dp">
+
+
+    <RelativeLayout
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/ivNewsCover"
+            android:layout_width="@dimen/realImage"
+            android:layout_height="@dimen/realImage"
+            android:layout_marginTop="@dimen/padding_10"
+            android:layout_marginRight="@dimen/activityPadding"
+            android:background="@color/colorBg"
+            android:layout_centerVertical="true"
+            fresco:actualImageScaleType="centerInside"
+            fresco:failureImage="@drawable/ic_placeholder"
+            fresco:failureImageScaleType="centerInside"
+            fresco:placeholderImage="@drawable/ic_placeholder"
+            fresco:placeholderImageScaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_10"
+            android:layout_marginRight="@dimen/activityPadding"
+            android:layout_toRightOf="@id/ivNewsCover"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNewsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/clear_sans_regular"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:hint="The magazine, founded by Billy Graham, has only a small following among Christian voters."
+                android:textColor="@color/primaryTextColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvPublishedDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:fontFamily="@font/clear_sans_regular"
+                android:paddingTop="8dp"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
