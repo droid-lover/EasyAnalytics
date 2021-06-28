@@ -29,12 +29,8 @@ class NewsApp : Application() {
         instance = this
         initializeFresco()
 
+        //initialize EasyAnalytics
         EasyAnalytics.register(this)
-        //Code for previous Dagger2
-//        appComponent = DaggerAppComponent.builder()
-//            .apiModule(ApiModule(C.BASE_URL1))
-//            .appModule(AppModule(this))
-//            .build()
     }
 
     companion object {

@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
-        EasyAnalytics.getAppUsageInfo(this,"AppMinimized")
+        EasyAnalytics.getAppUsageInfo(this,"HomeScreenPaused_NewsDetailsOpened")
     }
 
 }

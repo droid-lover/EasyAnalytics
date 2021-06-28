@@ -116,5 +116,7 @@ dependencies {
 
 
     //Easy Analytics
-    implementation(project(":easyAnalytics"))
+//    implementation(project(":easyAnalytics"))
+    implementation 'com.github.myJarvis:EasyAnalytics:0.0.1'
+
 }
