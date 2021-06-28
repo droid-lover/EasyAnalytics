@@ -14,3 +14,8 @@ To demo our EasyAnalytics lib we are using our old Code repo<a href="https://git
 
 
 
+
+# Gradle
+Add this into your dependencies block.
+
+```implementation 'com.github.myJarvis:EasyAnalytics:0.0.1'```
