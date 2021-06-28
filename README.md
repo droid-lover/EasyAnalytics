@@ -13,11 +13,37 @@ To demo our EasyAnalytics lib we are using our old Code repo<a href="https://git
 ![Alt Text](https://github.com/myJarvis/EasyAnalytics/blob/master/images/analytics.gif)
 
 
-
-
 # Gradle
 Add this into your dependencies block.
 
 ```
 implementation 'com.github.myJarvis:EasyAnalytics:0.0.1'
 ```
+
+## Wiki
+### General usage
+
+### Step1- register ```EasyAnanlytics``` inside your Application class.
+```
+@HiltAndroidApp
+class NewsApp : Application() {
+
+    override fun onCreate() {
+        super.onCreate()
+        instance = this
+        //initialize EasyAnalytics
+        EasyAnalytics.register(this)
+    }
+  }
+```
+
+### Step2- To get information about Internet data consumed in any screen inside your application. 
+
+Call ```EasyAnanlytics``` method like this - 
+```
+EasyAnalytics.getAppUsageInfo(context,"getNews_API_call_success")
+```
+
+### Params
+- first parameter is just a context 
+- and second parameter is The screen name or any event name which happened when we want to track the internet consumption.
