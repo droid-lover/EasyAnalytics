@@ -1,4 +1,6 @@
 # EasyAnalytics!
+[![](https://jitpack.io/v/myJarvis/EasyAnalytics.svg)](https://jitpack.io/#myJarvis/EasyAnalytics)
+
 an easy to use android library to let humna know how much internet-data their app is consuming. We can identify this as we want based on :
 -  any Screen or Module.
 -  any event.
