@@ -60,7 +60,7 @@ EasyAnalytics.getAppUsageInfo(context,"getNews_API_call_success")
 
 ## About the author
 ### <a href="https://iamsachinrajput.medium.com/"> Sachin Rajput</a>
-  Android Developer with 5 years of experiecne in building useful apps which serves millions.
+  Android Developer with 5 years of experiecne in building useful apps which serves a purpose to help people.
   In :heart: with <img src="https://github.com/myJarvis/EasyAnalytics/blob/master/images/android.png" alt="Android" width=20  height=30> </br> Open source contributor.
   
   
