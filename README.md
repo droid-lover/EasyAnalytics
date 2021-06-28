@@ -57,3 +57,8 @@ EasyAnalytics.getAppUsageInfo(context,"getNews_API_call_success")
 ### Bingo, thats all EasyAnalytics is ready to help you 😁, If you like this,</br></br>Show some ❤️ by starring⭐ this repo!
 
 </div>
+
+## About the author
+### <a href="https://iamsachinrajput.medium.com/"> Sachin Rajput</a>
+  Android Developer with 5 years of experiecne in building useful apps which serves millions.
+  In :heart: with <img src="https://github.com/myJarvis/EasyAnalytics/blob/master/images/android.png" alt="Android" width=40  height=40>  Open source contributor.
