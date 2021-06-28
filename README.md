@@ -48,5 +48,12 @@ EasyAnalytics.getAppUsageInfo(context,"getNews_API_call_success")
 - first parameter is just a context
 - and second parameter is The screen name or any event name which happened when we want to track the internet consumption.
 
-##Demo-
+## Demo-
 ![demovideo](https://github.com/myJarvis/EasyAnalytics/blob/master/images/demo.gif)
+
+
+<div align="center">
+
+### Bingo, thats all EasyAnalytics is ready to help you 😁, If you like this,</br></br>Show some ❤️ by starring⭐ this repo!
+
+</div>
