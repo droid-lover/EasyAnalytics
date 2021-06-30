@@ -66,6 +66,7 @@ EasyAnalytics.getAppUsageInfo(context,"getNews_API_call_success")
   Android Developer with 5 years of experiecne in building useful apps which serves a purpose to help people.
   In :heart: with <img src="https://github.com/myJarvis/EasyAnalytics/blob/master/images/android.png" alt="Android" width=20  height=30> </br> Open source contributor.
   
+  Lets be frieds over here :) 
   
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sachin-rajput-998b48105/)
 [![Website Badge](https://img.shields.io/badge/Medium-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://iamsachinrajput.medium.com/)
