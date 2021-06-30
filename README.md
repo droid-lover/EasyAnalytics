@@ -23,7 +23,7 @@ implementation 'com.github.myJarvis:EasyAnalytics:0.0.1'
 ## Wiki
 ### General usage
 
-### Step1- register ```EasyAnanlytics``` inside your Application class.
+## Step1- register ```EasyAnanlytics``` inside your Application class.
 ```
 @HiltAndroidApp
 class NewsApp : Application() {
@@ -37,7 +37,7 @@ class NewsApp : Application() {
   }
 ```
 
-### Step2- To get information about Internet data consumed in any screen inside your application.
+## Step2- To get information about Internet data consumed in any screen inside your application.
 
 Call ```EasyAnanlytics``` method like this -
 ```
