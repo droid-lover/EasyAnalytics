@@ -112,11 +112,12 @@ dependencies {
     implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02'
     kapt 'androidx.hilt:hilt-compiler:1.0.0-alpha02'
     implementation 'androidx.fragment:fragment-ktx:1.2.5'
+    implementation 'com.chibatching.kotpref:kotpref:2.13.1'
 
 
 
     //Easy Analytics
-//    implementation(project(":easyAnalytics"))
-    implementation 'com.github.myJarvis:EasyAnalytics:0.0.1'
+    implementation(project(":easyAnalytics"))
+//    implementation 'com.github.myJarvis:EasyAnalytics:0.0.1'
 
 }
