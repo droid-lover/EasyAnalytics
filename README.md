@@ -1,5 +1,6 @@
 # EasyAnalytics!
 [![](https://jitpack.io/v/myJarvis/EasyAnalytics.svg)](https://jitpack.io/#myJarvis/EasyAnalytics)
+![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-EasyAnalytics-green.svg?style=flat )]( https://android-arsenal.com/details/1/8245 )
 
 an easy to use android library to let developers know how much internet-data their app is consuming. We can identify this as we want based on :
 -  any Screen or Module.
