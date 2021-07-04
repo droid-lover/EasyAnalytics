@@ -2,4 +2,7 @@
     <string name="app_name">EasyAnalyticsSampleApp</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_news_detail">News Details</string>
+    <string name="headlines">Headlines</string>
+    <string name="check_easy_analytics_report">EA Reports</string>
+    <string name="allow_storage_access">Allow storage access</string>
 </resources>

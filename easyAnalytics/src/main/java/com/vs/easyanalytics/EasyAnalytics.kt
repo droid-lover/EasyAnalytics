@@ -2,12 +2,23 @@ package com.vs.easyanalytics
 
 import android.app.Application
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.net.TrafficStats
 import android.util.Log
 import com.chibatching.kotpref.Kotpref
-
+import com.vs.easyanalytics.entity.EasyAnalyticsLogger
+import com.vs.easyanalytics.reports.EasyAnalyticsReportsActivity
+import com.vs.easyanalytics.reports.db.EasyAnalyticsDatabase
+import com.vs.easyanalytics.utils.AppPrefs
+import com.vs.easyanalytics.utils.Utils
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
+/**
+ * Created by Sachin.
+ * https://iamsachinrajput.medium.com/
+ */
 object EasyAnalytics {
 
     private const val TAG = "EasyAnalytics"
@@ -46,7 +57,17 @@ object EasyAnalytics {
                 }
                 AppPrefs.lastRecordedDataConsumption = totalDataUsed
                 Log.e(TAG, "totalDataConsumed by app by now :$totalDataUsedValue by $screenAction")
+
+                val logger = EasyAnalyticsLogger(screenAction,dataConsumedInLastActionValue, Utils.getCurrentTime())
+
+                runBlocking {
+                    launch {
+                        EasyAnalyticsDatabase.getDatabase(context).easyAnalyticsDao().insertAnalyticLog(logger)
+                    }
+                }
+
             }
+
         }
         return ourAppPackage
     }
@@ -62,4 +83,7 @@ object EasyAnalytics {
         return appUid
     }
 
+    fun showReports(context: Context){
+        context.startActivity(Intent(context,EasyAnalyticsReportsActivity::class.java))
+    }
 }

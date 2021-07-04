@@ -7,12 +7,13 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'dagger.hilt.android.plugin'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.1"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
     defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 30
         applicationId "com.example.newsapplication"
-        minSdkVersion 24
-        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -79,7 +80,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
     implementation 'com.squareup.okhttp3:okhttp:3.12.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.airbnb.android:lottie:2.6.1'
+    implementation 'com.airbnb.android:lottie:3.1.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
     implementation 'com.google.android.gms:play-services-location:17.0.0'
 
@@ -112,11 +113,12 @@ dependencies {
     implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02'
     kapt 'androidx.hilt:hilt-compiler:1.0.0-alpha02'
     implementation 'androidx.fragment:fragment-ktx:1.2.5'
+    implementation 'com.chibatching.kotpref:kotpref:2.13.1'
 
 
 
     //Easy Analytics
-//    implementation(project(":easyAnalytics"))
-    implementation 'com.github.myJarvis:EasyAnalytics:0.0.1'
+    implementation(project(":easyAnalytics"))
+//    implementation 'com.github.myJarvis:EasyAnalytics:0.0.1'
 
 }
