@@ -55,7 +55,7 @@ Call ```EasyAnanlytics``` method like this -
 EasyAnalytics.showReports(context)
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### and that's it ```EasyAnalytics``` will open a beautiful Screen loaded with all analytics logged event for you, in your app itself without any hasle 😁 
+### and that's it ```EasyAnalytics``` will open a beautiful Screen loaded with all analytics logged events for you, in your app itself without any hassle 😁 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
