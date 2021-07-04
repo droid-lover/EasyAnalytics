@@ -24,7 +24,7 @@ class SplashScreenActivity : AppCompatActivity() {
         val intent = Intent(this@SplashScreenActivity, activity).apply {
             addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
         }
-        handler.postDelayed({ startActivity(intent) }, 4000)
+        handler.postDelayed({ startActivity(intent) }, 2000)
     }
 
 }
