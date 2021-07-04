@@ -9,6 +9,9 @@ import androidx.core.content.ContextCompat
 import com.vs.easyanalytics.entity.EasyAnalyticsLogger
 import java.text.DateFormat
 import java.text.SimpleDateFormat
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.time.format.FormatStyle
 import java.util.*
 
 object Utils {
@@ -24,6 +27,7 @@ object Utils {
     }
 
     val reportSaveAtPath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
+
 
     fun getFormattedUtcDate(date: Date): String? {
         val formattedDate = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").format(date)
@@ -57,6 +61,14 @@ object Utils {
 //        return Environment.MEDIA_MOUNTED == state
         return (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED)
 
+    }
+
+    fun getCurrentTime():String{
+        val current = LocalDateTime.now()
+        val formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)
+        val formattedTime = current.format(formatter)
+        println("Current Date is: $formattedTime")
+        return formattedTime
     }
 
 }
