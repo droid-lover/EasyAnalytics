@@ -13,7 +13,10 @@ import kotlinx.android.synthetic.main.activity_easy_analytical_reports.*
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
-
+/**
+ * Created by Sachin.
+ * https://iamsachinrajput.medium.com/
+ */
 class EasyAnalyticsReportsActivity : AppCompatActivity() {
 
 
