@@ -51,7 +51,7 @@ EasyAnalytics.getAppUsageInfo(context,"getNews_API_call_success")
 ## Demo (inital release)-
 ![demovideo](https://github.com/myJarvis/EasyAnalytics/blob/master/images/demo.gif)
 ## Demo (release v2)-
-![demovideo](https://github.com/myJarvis/EasyAnalytics/blob/master/images/v2release.gif)
+<img src="https://github.com/myJarvis/EasyAnalytics/blob/master/images/v2release.gif" width="400" height="600" />
 
 ### Upcoming features
  - an exportable summarize report and more.
@@ -65,5 +65,11 @@ EasyAnalytics.getAppUsageInfo(context,"getNews_API_call_success")
 
 ## About the author
 ### <a href="https://iamsachinrajput.medium.com/"> Sachin Rajput</a>
-  Android Developer with 5 years of experiecne in building useful apps which serves millions.
-  In :heart: with <img src="https://github.com/myJarvis/EasyAnalytics/blob/master/images/android.png" alt="Android" width=40  height=40>  Open source contributor.
+  Android Developer with 5 years of experiecne in building useful apps which serves a purpose to help people.
+  In :heart: with <img src="https://github.com/myJarvis/EasyAnalytics/blob/master/images/android.png" alt="Android" width=20  height=30> </br> Open source contributor.
+  
+  Lets be friends over here :) 
+  
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sachin-rajput-998b48105/)
+[![Website Badge](https://img.shields.io/badge/Medium-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://iamsachinrajput.medium.com/)
+[![Stackoverflow Badge](https://img.shields.io/badge/-Stackoverflow-FFA500?style=flat-square&logo=Stackoverflow&logoColor=orange)](https://stackoverflow.com/users/7193506/sachin)
