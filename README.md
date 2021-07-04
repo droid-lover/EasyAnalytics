@@ -48,6 +48,17 @@ EasyAnalytics.getAppUsageInfo(context,"getNews_API_call_success")
 - first parameter is just a context
 - and second parameter is The screen name or any event name which happened when we want to track the internet consumption.
 
+### Step3- Want to see the captured internet data consumptions by ```EasyAnalytics``` in your app itself?
+
+Call ```EasyAnanlytics``` method like this -
+```
+EasyAnalytics.showReports(context)
+```
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+### and that's it ```EasyAnalytics``` will open a beautiful Screen loaded with all analytics logged event for you, in your app itself without any hasle 😁 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 ## Demo (inital release)-
 ![demovideo](https://github.com/myJarvis/EasyAnalytics/blob/master/images/demo.gif)
 ## Demo (release v2)-
