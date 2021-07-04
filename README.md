@@ -53,7 +53,10 @@ EasyAnalytics.getAppUsageInfo(context,"getNews_API_call_success")
 ## Demo (release v2)-
 ![demovideo](https://github.com/myJarvis/EasyAnalytics/blob/master/images/v2release.gif)
 
-
+### Upcoming features
+ - an exportable summarize report and more.
+ 
+ 
 <div align="center">
 
 ### Bingo, thats all EasyAnalytics is ready to help you 😁, If you like this,</br></br>Show some ❤️ by starring⭐ this repo!
