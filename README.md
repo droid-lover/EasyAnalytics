@@ -57,7 +57,7 @@ Call ```EasyAnanlytics``` method like this -
 EasyAnalytics.showReports(context)
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### and that's it ```EasyAnalytics``` will open a beautiful Screen loaded with all analytics logged events for you, in your app itself without any hassle 😁
+### and that's it ```EasyAnalytics``` will open a beautiful Screen loaded with all analytics logged events for you, in your app itself without any hassle 😁 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -68,8 +68,8 @@ EasyAnalytics.showReports(context)
 
 ### Upcoming features
  - an exportable summarize report and more.
-
-
+ 
+ 
 <div align="center">
 
 ### Bingo, thats all EasyAnalytics is ready to help you 😁, If you like this,</br></br>Show some ❤️ by starring⭐ this repo!
@@ -80,9 +80,9 @@ EasyAnalytics.showReports(context)
 ### <a href="https://iamsachinrajput.medium.com/"> Sachin Rajput</a>
   Android Developer with 5 years of experiecne in building useful apps which serves a purpose to help people.
   In :heart: with <img src="https://github.com/myJarvis/EasyAnalytics/blob/master/images/android.png" alt="Android" width=20  height=30> </br> Open source contributor.
-
-  Lets be friends over here :)
-
+  
+  Lets be friends over here :) 
+  
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sachin-rajput-998b48105/)
 [![Website Badge](https://img.shields.io/badge/Medium-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://iamsachinrajput.medium.com/)
 [![Stackoverflow Badge](https://img.shields.io/badge/-Stackoverflow-FFA500?style=flat-square&logo=Stackoverflow&logoColor=orange)](https://stackoverflow.com/users/7193506/sachin)
