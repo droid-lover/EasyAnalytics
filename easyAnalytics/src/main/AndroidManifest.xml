@@ -5,7 +5,7 @@
 
     <application>
         <activity
-            android:name=".reports.EasyAnalyticsReportsActivity"
+            android:name=".reports.ui.EasyAnalyticsReportsActivity"
             android:screenOrientation="portrait"
             android:label="@string/title_activity_easy_analytical_reports"/>
     </application>

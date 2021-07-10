@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.newsapplication">
+    package="com.example.sampleapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".app.NewsApp"
+        android:name="com.example.sampleapp.app.NewsApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,14 +18,14 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".views.activities.MainActivity"
+            android:name="com.example.sampleapp.views.activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".views.activities.NewsDetailActivity"
+            android:name="com.example.sampleapp.views.activities.NewsDetailActivity"
             android:label="@string/title_activity_news_detail"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".views.activities.SplashScreenActivity"
+            android:name="com.example.sampleapp.views.activities.SplashScreenActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Design.Light.NoActionBar">
             <intent-filter>
