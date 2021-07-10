@@ -9,7 +9,7 @@ import android.net.TrafficStats
 import android.util.Log
 import com.chibatching.kotpref.Kotpref
 import com.vs.easyanalytics.entity.EasyAnalyticsLogger
-import com.vs.easyanalytics.reports.EasyAnalyticsReportsActivity
+import com.vs.easyanalytics.reports.ui.EasyAnalyticsReportsActivity
 import com.vs.easyanalytics.reports.db.EasyAnalyticsDatabase
 import com.vs.easyanalytics.utils.AppPrefs
 import com.vs.easyanalytics.utils.Utils
@@ -84,6 +84,7 @@ object EasyAnalytics {
     }
 
     fun showReports(context: Context){
-        context.startActivity(Intent(context,EasyAnalyticsReportsActivity::class.java))
+        context.startActivity(Intent(context,
+            EasyAnalyticsReportsActivity::class.java))
     }
 }

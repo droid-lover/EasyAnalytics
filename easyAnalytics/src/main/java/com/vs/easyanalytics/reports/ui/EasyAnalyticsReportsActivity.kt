@@ -1,4 +1,4 @@
-package com.vs.easyanalytics.reports
+package com.vs.easyanalytics.reports.ui
 
 import android.os.Bundle
 import android.util.Log
