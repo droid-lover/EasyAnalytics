@@ -78,7 +78,7 @@ EasyAnalytics.showReports(context)
 
 ## About the author
 ### <a href="https://iamsachinrajput.medium.com/"> Sachin Rajput</a>
-  Android Developer with 5 years of experiecne in building useful apps which serves a purpose to help people.
+  Android Developer with 5 years of experiecne in building useful apps which serves a purpose to help people. <br/>
   In :heart: with <img src="https://github.com/myJarvis/EasyAnalytics/blob/master/images/android.png" alt="Android" width=20  height=30> </br> Open source contributor.
   
   Lets be friends over here :) 
