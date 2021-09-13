@@ -15,6 +15,7 @@ To demo our EasyAnalytics lib we are using our old Code repo<a href="https://git
 ![Alt Text](https://github.com/myJarvis/EasyAnalytics/blob/master/images/analytics.gif)
 
 <br/>
+
 # Gradle
 Add this into your dependencies block.
 
