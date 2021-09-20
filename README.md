@@ -23,6 +23,7 @@ Add this into your dependencies block.
 implementation 'com.github.myJarvis:EasyAnalytics:0.0.1'
 ```
 
+
 ## Wiki
 ### General usage
 
