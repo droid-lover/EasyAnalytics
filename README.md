@@ -89,5 +89,5 @@ EasyAnalytics.showReports(context)
 [![Website Badge](https://img.shields.io/badge/Medium-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://droid-lover.medium.com/)
 [![Stackoverflow Badge](https://img.shields.io/badge/-Stackoverflow-FFA500?style=flat-square&logo=Stackoverflow&logoColor=orange)](https://stackoverflow.com/users/7193506/sachin)
 
-If you love this project </br>
+If you love this project you can</br>
 <a href="https://www.buymeacoffee.com/droidlover" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Love this project, Buy me a coffee" style="height: 60px !important;width: 217px !important;" ></a>
