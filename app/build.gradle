@@ -7,11 +7,11 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'dagger.hilt.android.plugin'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 30
 
     defaultConfig {
         minSdkVersion 23
-        targetSdkVersion 31
+        targetSdkVersion 30
         applicationId "com.example.newsapplication"
         versionCode 1
         versionName "1.0"
@@ -116,7 +116,7 @@ dependencies {
 
 
     //Easy Analytics
-//    implementation(project(":easyAnalytics"))
-    implementation 'com.github.myJarvis:EasyAnalytics:0.0.2'
+    implementation(project(":easyAnalytics"))
+//    implementation 'com.github.myJarvis:EasyAnalytics:0.0.2'
 
 }
