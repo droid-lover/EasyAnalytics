@@ -8,7 +8,6 @@ apply plugin: 'dagger.hilt.android.plugin'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.3"
 
     defaultConfig {
         minSdkVersion 23
@@ -46,12 +45,11 @@ android {
         enabled = true
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
-
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8.toString()
+        jvmTarget = JavaVersion.VERSION_11.toString()
     }
 }
 
@@ -118,7 +116,7 @@ dependencies {
 
 
     //Easy Analytics
-//    implementation(project(":easyAnalytics"))
-    implementation 'com.github.myJarvis:EasyAnalytics:0.0.2'
+    implementation(project(":easyAnalytics"))
+//    implementation 'com.github.myJarvis:EasyAnalytics:0.0.2'
 
 }
