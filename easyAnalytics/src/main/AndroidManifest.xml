@@ -7,7 +7,12 @@
         <activity
             android:name=".reports.ui.EasyAnalyticsReportsActivity"
             android:screenOrientation="portrait"
-            android:label="@string/title_activity_easy_analytical_reports"/>
+            android:label="@string/title_activity_easy_analytical_reports">
+        <intent-filter>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>
