@@ -7,11 +7,11 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'dagger.hilt.android.plugin'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
 
     defaultConfig {
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 31
         applicationId "com.example.newsapplication"
         versionCode 1
         versionName "1.0"
@@ -83,13 +83,12 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:17.0.0'
 
 
-
     //Room
     def roomVersion = "2.2.2"
     implementation "androidx.room:room-runtime:$roomVersion"
     implementation "androidx.room:room-ktx:$roomVersion"
     kapt "androidx.room:room-compiler:$roomVersion"
-    
+
 //    ext.dagger2_version = '2.24'
 //    implementation "com.google.dagger:dagger:$dagger2_version"
 //    kapt "com.google.dagger:dagger-compiler:$dagger2_version"
@@ -113,10 +112,8 @@ dependencies {
     implementation 'androidx.fragment:fragment-ktx:1.2.5'
     implementation 'com.chibatching.kotpref:kotpref:2.13.1'
 
-
-
     //Easy Analytics
 //    implementation(project(":easyAnalytics"))
-    implementation 'com.github.myJarvis:EasyAnalytics:0.0.3'
+    implementation 'com.github.myJarvis:EasyAnalytics:0.0.4'
 
 }
