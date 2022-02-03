@@ -71,6 +71,13 @@ EasyAnalytics.showReports(context)
 ### Upcoming features
  - an exportable summarize report and more.
  
+ ### Project SDK
+      compileSdkVersion 30
+      targetSdkVersion 30
+      
+
+ - an exportable summarize report and more.
+ 
  
 <div align="center">
 
