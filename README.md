@@ -12,6 +12,8 @@ EasyAnalytics library gives us the power to easily add logging events anywhere w
 <br/>
 To demo our EasyAnalytics lib we are using our old Code repo<a href="https://github.com/droid-lover/DaggerHiltApp"> News Sample App using HILT</a>
 
+Details explanation - https://medium.com/native-mobile-bits/easyanalytics-3a92799410c7
+
 ![Alt Text](https://github.com/myJarvis/EasyAnalytics/blob/master/images/analytics.gif)
 
 <br/>
