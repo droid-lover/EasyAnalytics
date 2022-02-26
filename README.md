@@ -87,8 +87,11 @@ EasyAnalytics.showReports(context)
 </div>
 
 ## About the author
-### <a href="https://iamsachinrajput.medium.com/"> Sachin Rajput</a>
-  Android Developer with 5 years of experiecne in building useful apps which serves a purpose to help people. <br/>
+### <a href="https://www.youtube.com/channel/UCTjQSpx2waqXTC37AgM8qyA/videos"> Sachin Rajput</a>
+
+I am a developer from India and I work with Android on daily basis and I love creating native Mobile apps which can help users and give a plesant experience :)<br/>
+I love contributing to Open Source community and I share my learnings and respective implementation on my Youtube Channel (Native Mobile Bits) and on Medium as well. 
+</br></br>
   In :heart: with <img src="https://github.com/myJarvis/EasyAnalytics/blob/master/images/android.png" alt="Android" width=20  height=30> </br> Open source contributor.
   
   Lets connect over here :) 
