@@ -13,8 +13,11 @@ import com.vs.easyanalytics.reports.ui.EasyAnalyticsReportsActivity
 import com.vs.easyanalytics.reports.db.EasyAnalyticsDatabase
 import com.vs.easyanalytics.utils.AppPrefs
 import com.vs.easyanalytics.utils.Utils
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
+
 /**
  * Created by Sachin.
  * https://iamsachinrajput.medium.com/
@@ -61,9 +64,9 @@ object EasyAnalytics {
                 val logger = EasyAnalyticsLogger(screenAction,dataConsumedInLastActionValue, Utils.getCurrentTime())
 
                 runBlocking {
-                    launch {
-                        EasyAnalyticsDatabase.getDatabase(context).easyAnalyticsDao().insertAnalyticLog(logger)
-                    }
+                        withContext(Dispatchers.IO) {
+                            EasyAnalyticsDatabase.getDatabase(context).easyAnalyticsDao().insertAnalyticLog(logger)
+                        }
                 }
 
             }

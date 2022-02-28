@@ -13,8 +13,8 @@ import com.vs.easyanalytics.entity.EasyAnalyticsLogger
 interface EasyAnalyticsDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertAnalyticLog(easyAnalyticsLogger: EasyAnalyticsLogger)
+    fun insertAnalyticLog(easyAnalyticsLogger: EasyAnalyticsLogger)
 
     @Query("Select * from EasyAnalyticsLogger")
-    suspend fun getAnalytics(): List<EasyAnalyticsLogger>
+    fun getAnalytics(): List<EasyAnalyticsLogger>
 }
