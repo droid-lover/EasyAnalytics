@@ -10,8 +10,10 @@ import com.vs.easyanalytics.R
 import com.vs.easyanalytics.entity.EasyAnalyticsLogger
 import com.vs.easyanalytics.reports.db.EasyAnalyticsDatabase
 import kotlinx.android.synthetic.main.activity_easy_analytical_reports.*
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
 
 /**
  * Created by Sachin.
@@ -27,10 +29,14 @@ class EasyAnalyticsReportsActivity : AppCompatActivity() {
 
         runBlocking {
             launch {
-                val eaAnalyticsValues = EasyAnalyticsDatabase.getDatabase(this@EasyAnalyticsReportsActivity).easyAnalyticsDao().getAnalytics()
-                Log.e(TAG, "inside_get ${eaAnalyticsValues.size}")
-                if(!eaAnalyticsValues.isNullOrEmpty()){
-                    showEasyAnalyticsReports(eaAnalyticsValues)
+                withContext(Dispatchers.IO) {
+                    val eaAnalyticsValues =
+                        EasyAnalyticsDatabase.getDatabase(this@EasyAnalyticsReportsActivity)
+                            .easyAnalyticsDao().getAnalytics()
+                    Log.e(TAG, "inside_get ${eaAnalyticsValues.size}")
+                    if (!eaAnalyticsValues.isNullOrEmpty()) {
+                        showEasyAnalyticsReports(eaAnalyticsValues)
+                    }
                 }
             }
         }

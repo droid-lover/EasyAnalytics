@@ -14,6 +14,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.sampleapp.R
 import com.example.sampleapp.utils.SampleAppPrefs
 import com.example.sampleapp.views.fragments.NewsFragment
@@ -25,6 +26,7 @@ import kotlinx.android.synthetic.main.layout_toolbar_view.view.*
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
